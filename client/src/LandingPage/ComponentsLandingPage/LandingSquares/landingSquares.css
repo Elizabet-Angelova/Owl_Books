@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;700;800&display=swap');
+
+.square-container {
+    margin-top: 1vw;
+    padding: 1vw;
+    text-align: center;
+    color: white;
+    opacity: 0.65;
+    font-family: 'Baloo Chettan 2', cursive;
+    letter-spacing: 0.02rem;
+}
+
+i {
+    font-size: 1.5vw;
+    padding-bottom: 0.8rem;
+}
+
+.square-content {
+    font-size: 1.2vw;
+   font-weight: 100;
+}

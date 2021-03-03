@@ -1,0 +1,64 @@
+.profile-page-main-container {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    height: fit-content;
+    margin-top: 9vmin;
+    margin-right: 6vmin;
+    margin-left: 4vmin;
+    margin-bottom: 4vh;
+    padding-left: 10vmin;
+    padding-right: 10vmin;
+    padding-top: 8vmin;
+    padding-bottom: 8vmin;
+    text-align: left;   
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 40px;
+    box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto;
+}
+
+.avatar {
+    width: 16vw;
+    height: 16vw;
+    border-radius: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 9px solid transparent ;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.6);
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+
+}
+
+
+.user-details {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+    margin: auto;
+    padding-top: 19vmax;
+    text-align: center;
+}
+
+.currently-borrowing, .user-reviews, .user-votes{
+    grid-row: 2 / span 1;
+    margin-top: 10vmin;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    padding-top: 2vmin;
+}
+
+.see-more {
+    transition: all 0.2s ease-in-out;
+    margin: auto;
+}
+
+.see-more:hover {
+    cursor: pointer;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.03);
+}

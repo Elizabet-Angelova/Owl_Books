@@ -1,0 +1,29 @@
+.trending-main-container {
+    height: fit-content;
+    overflow-x: hidden;
+   display: grid;
+   background-image: url('/bh7.jpg');
+   background-size: 100%;
+   background-position: top;
+   z-index: -4;
+   
+}
+
+.blur-container2 {
+    grid-row: 1 ;
+    grid-column: 1 ;
+    display: grid;
+    grid-template-columns: 1fr 4.3fr;
+    grid-template-rows: 7vh auto;
+    padding-right: 6vmin;
+    z-index:0 ;
+   width: 100vw;
+   height: fit-content;
+   overflow: hidden;
+   backdrop-filter: blur(50px);
+   background-color: rgba(255, 255, 255, 0.25);
+}
+
+
+
+

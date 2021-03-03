@@ -1,0 +1,17 @@
+.admin-button {
+    display: inline-block;
+    width: 4.5vw; 
+    height: fit-content; 
+    margin-top: 0.9vw; 
+    margin-right: 0.5vw;
+    background: rgba(0, 0, 0, 0.3); 
+    color: white;
+    font-size: 1.2vw;
+    font-family: 'Baloo Chettan 2', cursive;
+    z-index: 5;
+}
+
+.admin-button:hover {
+    background: rgba(0, 0, 0, 0.6); 
+    cursor: pointer;
+}

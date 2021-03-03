@@ -1,0 +1,24 @@
+
+.page-controller {
+    height: 13vh;
+    z-index: 3;
+    color: white;
+    font-size: 1.3rem;
+    justify-self: center;
+    /* grid-column: 2;
+    grid-row: 2 / span 1; */
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 2vmin;
+}
+
+.chevron:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.chevron {
+    transition: color 0.1s ease-in-out ;
+    color: rgba(255, 255, 255, 0.7);
+}

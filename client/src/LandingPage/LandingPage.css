@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+.motherShip {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/landingPage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    transition: all 1s ease-in-out;
+    animation: unclip 1s ease-in-out forwards;
+
+}
+
+.left-bg {
+    background-position-x: -500px;
+    animation: clip 1s ease-in-out forwards;
+}
+
+@keyframes clip {
+    0% {
+        clip-path: polygon(0% 0%, 100% 0px, 100% 100%, 0% 100%);
+    } 
+    100% {
+        clip-path: polygon(0% 0%, 76% 0px, 56% 100%, 0% 100%);
+    }
+}
+
+@keyframes unclip {
+    0% {
+        clip-path: polygon(0% 0%, 76% 0px, 56% 100%, 0% 100%);
+    } 
+    100% {
+        clip-path: polygon(0% 0%, 100% 0px, 100% 100%, 0% 100%) ;
+    }
+}
+
+.blur-container {
+    height: 100vh;
+    width: 80vw;
+    clip-path: polygon(0% 0%, 95% 0px, 70% 100%, 0% 100%);
+    background-color: rgba(238, 250, 255, 0.13); 
+    backdrop-filter: blur(4px);
+    grid-row: 1 / span 25;
+    grid-column: 1 / span 25;
+    z-index: 0;
+}
+
+.content-container {
+    z-index: 1;
+    grid-row: 1 / span 25;
+    grid-column: 1 / span 25;
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    grid-auto-flow: column;
+}
+
+.comfortable {
+    text-shadow: 0px 0px 8px rgb(94, 94, 94);
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    grid-row: 5 / span 20;
+    grid-column: 2 / span 30;
+    letter-spacing: 0.1rem;
+    font-size: 2.5vw;
+    word-spacing: 0.4rem;
+    font-weight: 200;
+    padding-left: 3vmin;
+}
+
+.websiteName {
+    font-family:'Comfortaa', serif;
+    color: rgb(255, 255, 255);
+    font-size: 7vw;
+    grid-row: 6 / span 20;
+    grid-column: 3 / span 20;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    letter-spacing: 0.2rem;
+    text-shadow: 0px 0px 20px rgb(94, 94, 94);
+
+}

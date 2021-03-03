@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+
+ .single-book-container{
+    box-sizing: border-box;
+    z-index: 1;
+    grid-row: 1;
+    grid-column: 1;
+    height: 44vh;
+
+ }
+
+ .book-main-container {
+    box-sizing: border-box;
+    display: grid;
+    border-bottom: 0.6px solid rgba(255, 255, 255, 0.6);
+    height: 44vh;
+    padding-right: 5vmin;
+    padding-left: 5vmin;
+
+ }
+
+ .book-main-container:hover {
+     cursor: pointer;
+ }
+
+ /* .book-main-container:hover .fuck{
+    background-color: rgb(255, 255, 255);
+} */
+
+ .triangle {
+     transition: all 0.1s ease-in-out;
+    border-bottom-left-radius: 30px;
+    grid-column: 1;
+    grid-row: 1;
+    clip-path: polygon(0 20%, 0% 100%, 90% 100%);
+    box-sizing: border-box;
+    height: 35vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: -1;
+ }
+
+.single-book-container img {
+    width: 5.5vw;
+    transform: rotate(7deg);
+    padding-top: 4vmin;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-book-container img:hover {
+    transform: scale(1.07);
+}
+
+.book-details-container {
+    line-height: 1vmin;
+    text-align: left;
+    padding-left: 1vmin;
+    padding-top: 0.7vmin;
+}
+
+.book-title {
+    line-height: 2.5vmin;
+    margin-top: 1.7vmin;
+    margin-left: 0.5vmin;
+    font-weight: 600;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 2.6vmin;
+}
+
+.book-author {
+    line-height: 2vmin;
+    margin-top: -2vmin;
+    font-weight: normal;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 2.4vmin;
+    color: rgb(34, 34, 34);
+    padding-left: 1vmin;
+}
+
+.borrow-return-button {
+    box-shadow: -2px 2px 3px grey;
+    font-size: 2.5vmin;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    background-color: rgb(255, 5, 130);
+    border-radius: 3px;
+    padding: 1.3vmin;
+    font-weight: bold;
+    font-family: 'Baloo Chettan 2', cursive;
+    transition: all 0.24s ease-in-out;
+    margin-left: 0.4vmin;
+}
+
+.borrow-return-button:hover {
+    transform: scale(1.16);
+    cursor: pointer;
+}
+
+
+
+

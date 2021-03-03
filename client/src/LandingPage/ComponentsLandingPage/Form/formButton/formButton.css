@@ -1,0 +1,19 @@
+.form-button {
+    height: fit-content;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.7vw;
+    line-height: 5vmin;
+    color:rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-left: 2.5rem;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    text-shadow: -2px 2px 10px rgb(0, 0, 0, 0.4);
+}
+
+.form-button:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+    text-shadow: -2px 2px 13px rgb(0, 0, 0, 0.4);
+} 

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+
+
+.form-container {
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    height: 100vh;
+    width: 44%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    clip-path: polygon(45% 0%, 100% 0px, 100% 100%, 0% 100%);
+    background: linear-gradient(to bottom left, rgb(196, 149, 163), rgb(152, 202, 202));
+
+    
+}
+

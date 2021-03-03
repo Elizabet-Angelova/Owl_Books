@@ -1,0 +1,23 @@
+.books-container {
+
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    height: fit-content;
+    margin-top: 9vmin;
+    margin-right: 6vmin;
+    margin-left: 4vmin;
+     padding-left: 6vmin;
+     padding-right: 6vmin;
+     padding-top: 4vmin;
+     margin-bottom: 2vh;
+     text-align: center;   
+     z-index: 1;
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 40px;
+    box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.2);
+ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(10vh, 48vh);
+ }
+ 
